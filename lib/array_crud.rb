@@ -6,10 +6,10 @@ def create_an_array
 candy = ["Skittles", "Snickers", "Kit Kat", "Gummy Bears"]
 end
 
-def add_element_to_end_of_array(array, "Twix")
-array = ["Skittles", "Snickers", "Kit Kat", "Gummy Bears"]
-array << "Twix"
-puts candy.inspect
+def add_element_to_end_of_array(candy_array, "Twix")
+candy_array = ["Skittles", "Snickers", "Kit Kat", "Gummy Bears"]
+candy_array << "Twix"
+puts candy_array.inspect
 end
 
 def add_element_to_start_of_array(array, element)
